@@ -4,9 +4,12 @@
 
 # Step 1:
 # Build image and add a descriptive tag
+docker build -t hassan1a/house_pricing .
 
 # Step 2: 
 # List docker images
+docker image ls
 
 # Step 3: 
-# Run flask app
+# Run flask app/.
+docker run -p 8000:80 hassan1a/house_pricing
