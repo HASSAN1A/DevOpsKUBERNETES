@@ -10,7 +10,7 @@ dockerpath=hassan1a/house_pricing
 
 # Step 2:  
 # Authenticate & tag
-docker login -u "jun222work "
+docker login -u "hassan1a "
 docker tag house_pricing $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
